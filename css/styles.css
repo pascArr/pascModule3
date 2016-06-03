@@ -24,9 +24,7 @@ body {
 
 }
 
-ul.hidden {
-    display: none;
-}
+
 
 .navbar-brand h1 { /* Website name */
   padding-top: 25px;
