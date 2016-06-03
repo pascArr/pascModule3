@@ -1,0 +1,130 @@
+/** GLOBAL STYLES **/
+
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #8BC34A;
+  /* This property comes from google.com/fonts/quick-use*/
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight:400;
+}
+
+/** HEADER **/
+#header-nav {
+  /*background-color: #a3d5d3;*/
+  background-color:green;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-header {
+
+  height:100px;
+
+}
+
+ul.hidden {
+    display: none;
+}
+
+.navbar-brand h1 { /* Website name */
+  padding-top: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: #7C84C8;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/** HEADER / NAVIGATION LIST **/
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  font-size: 1.2em;
+  text-align: center;
+  color:#263238;
+}
+
+#nav-list a:hover {
+  
+  background-color:#8BC34A;
+
+}
+
+#nav-list a span {
+
+  font-size:1.8em;
+}
+
+#section{
+  height:1000px;
+}
+
+#offset{
+  margin-top: 75px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid green;
+  background-color:#ddd;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/**HEADER END**/
+
+/**HOME PAGE**/
+
+
+h1 {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  font-size:2em;
+  text-align:center;
+  padding-top:60px;
+
+}
+
+p {
+  
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0px;
+  color: black;
+  position: center;
+  text-align:center;
+  font-size:1.5em;
+
+}
+
+#content {
+
+  
+  padding: 1% 1% 1% 2%;
+  font-size:1.25em;
+
+}
+
+#box {
+  background-color: #B45F04;
+  background-clip: content-box;
+  margin-top: 3%;
+
+
+  
+}
+
+
